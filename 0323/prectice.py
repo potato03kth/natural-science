@@ -27,8 +27,8 @@ def ex(n,rate = 0,fee_rate = 0,is_prefere = 0,prefere_rate = 0):
         is_prefere = True
     if(prefere_rate == 0):
         prefere_rate = 0.85
-    fee = n * rate * (fee_rate * ((is_prefere) * prefere_rate))
-    return n * rate - fee
+    fee = float(n) * float(rate) * (float(fee_rate) * ((float(is_prefere)) * float(prefere_rate)))
+    return float(n) * rate - fee
 
 print("환전계산기에 오신걸 환영합니다! \n 현재 달러 to 원화 모드만 지원합니다.")
 a = input("환율 우대를 받으십니까? 받으면 1, 아니면 0")
@@ -37,4 +37,4 @@ print("현재 표준 환율로만 계산 가능합니다.")
 
 b = input("환전 원하는 금액을 달러로 입력해주세요")
 
-print(f"달러 {b} 불을 환전하시려면 {ex(b,0,0,a,0)} 원이 필요합니다.\n 적용된 환율은 1 달러당 {ex.rate}")
+print(f"달러 {b} 불을 환전하시려면 {ex(b,0,0,a,0)} 원이 필요합니다.\n 적용된 환율은 1 달러당 1896.08")
