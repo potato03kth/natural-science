@@ -1,0 +1,29 @@
+a = 11
+b = 3
+
+andO = a & b
+orO = a | b
+xorO = a ^ b
+notO = ~a
+
+print(bin(a))
+print(bin(b))
+print("--------")
+print(bin(andO))
+print(bin(orO))
+print(bin(xorO))
+print(bin(notO))
+print(notO)
+# not 연산을 하게 되면, 페러티부호 포함 완전히 바뀌는 과정에서, -1이 더해지는 것에 대해 주의
+
+c = -16
+print(~c)
+# 반대로, 원래 음수였던 값은, 페러티부호 포함 완전히 바뀌는 과정에서, 1이 더해지는 것에 대해 주의
+
+
+# 자, 이제 드디어 비트쉬프트다.
+
+# operator priarity
+# 꼴깝떨지 말고 괄호 씌우고 살자
+
+
