@@ -10,18 +10,18 @@ print(tp_1[:-1])
 print("-----")
 
 # (실습 253) 문자열을 입력받아서 각 문자로 된 튜플로 변환하여 출력하시오.
-# print("-----")
-# print("실습 253")
+print("-----")
+print("실습 253")
 
-# a = input("여기에 문자열 입력.")
+a = input("여기에 문자열 입력.")
 
-# def string_to_tuple(s):
-#     return tuple(s)
+def string_to_tuple(s):
+    return tuple(s)
 
-# t = string_to_tuple(a)
-# print(t)
+t = string_to_tuple(a)
+print(t)
 
-# print("-----")
+print("-----")
 
 
 # (실습 261) 딕셔너리 변수에서 적절한 값을 저장하여 다음과 같이 출력되도록 하시오.
