@@ -11,7 +11,7 @@ if("KIwi" in s):
 else:
     s.add("Kiwi")
     print("Kiwi가 빠졌잖아")
-    print(s)
+    print(s)    
 print("------")
 
 # (실습 274) 주어진 문자열을 set으로 형변환하여 각 요소의 빈도수를 딕셔너리로 저장하여 출력하는 프로그램을 작성하시오.
